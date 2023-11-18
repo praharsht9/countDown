@@ -33,7 +33,7 @@ const CountDown = ({ seconds }) => {
 	useEffect(() => {
 		if (countDown <= 0) {
 			clearInterval(timerId.current);
-			alert('END');
+			// alert('END');
 		}
 	});
 
