@@ -5,7 +5,7 @@ function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
-				<CountDown seconds={10} />
+				<CountDown seconds={90} />
 			</header>
 		</div>
 	);

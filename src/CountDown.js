@@ -8,12 +8,12 @@ const CountDown = ({ seconds }) => {
 	const formatTime = (time) => {
 		let minutes = Math.floor(time / 60);
 		let seconds = Math.floor(time - minutes * 60);
-		if (minutes <= 10) minutes = '0' + minutes;
-		if (seconds <= 10) seconds = '0' + seconds;
+		if (minutes <= 9) minutes = '0' + minutes;
+		if (seconds <= 9) seconds = '0' + seconds;
 
 		let fontColor = 'white'; // Default font color
 		if (time <= 5) {
-			fontColor = 'red'; // Change font color to red
+			fontColor = '#c40000'; // Change font color to red
 		}
 
 		return (
